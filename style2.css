@@ -1,0 +1,31 @@
+#header{
+  padding: 2em; //twice th size of the font
+  border-color: yellow;
+  background-color: orange;
+}
+
+#header h1{
+  text-align: center;
+  color:blue;
+}
+
+#left{
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.post{
+  border: 1px solid black;
+  margin: 10px;
+}
+
+#main {//the right has its own div, so they are on top of each other
+  display: flex;
+  flex-direction: row;
+}
+
+#footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
